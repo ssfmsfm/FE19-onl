@@ -1,0 +1,113 @@
+.social {
+    background-color: #F8EFEF;
+}
+
+.social-wrap {
+    width: 100%;
+    padding-top: 14px;
+    padding-bottom: 17px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-text {
+    width: 365px;
+    font-family: "Open Sans";
+}
+
+.social-title {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 700;
+    color: #333;
+    text-transform: capitalize;
+}
+
+.social-description {
+    color: #86878B;
+    font-weight: 400;
+    margin-top: 14px;
+    line-height: 19px;
+}
+
+.social-icons {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.social-icons-list {
+    display: flex;
+}
+
+.social-icons-item {
+    font-size: 42px;
+    margin-right: 60px;
+}
+
+.social-icons-item:last-child {
+    margin-right: 0;
+}
+
+.social-icons-item a {
+    color: rgb(197, 197, 199);
+}
+
+.fa-facebook-f {
+    transition: 0.6s;
+}
+
+.fa-twitter {
+    transition: 0.6s;
+}
+
+.fa-google-plus-g {
+    transition: 0.6s;
+}
+
+.fa-pinterest {
+    transition: 0.6s;
+}
+
+.fa-instagram {
+    transition: 0.6s;
+}
+
+.fa-stumbleupon {
+    transition: 0.6s;
+}
+
+.fa-rss {
+    transition: 0.6s;
+}
+
+.fa-facebook-f:hover {
+    color: rgb(59, 89, 152);
+}
+
+.fa-twitter:hover {
+    color: rgb(31, 174, 233);
+}
+
+.fa-google-plus-g:hover {
+    color: rgb(211, 72, 54);
+}
+
+.fa-pinterest:hover {
+    color: rgb(189, 8, 28);
+}
+
+.fa-instagram:hover {
+    color: rgb(204, 117, 77)
+}
+
+.fa-stumbleupon:hover {
+    color: rgb(189, 61, 11);
+}
+
+.fa-rss:hover {
+    color: rgb(247, 132, 34);
+}
+
