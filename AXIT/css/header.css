@@ -33,21 +33,46 @@
 .header-navigation {
     display: flex;
     flex-flow: row wrap;
-    
-}
-
-.header-navigation-item {
-    margin-left: 48px;
-    font-size: 15px;
-    line-height: 20px;
-}
-
-.header-navigation-item:hover {
-    border-bottom: 3px solid rgba(255, 255, 255, 0.7);
-    border-left: 3px solid rgba(255, 255, 255, 0.7);
 }
 
 .header-navigation a {
     font-family: 'Open Sans';
     color: rgba(255, 255, 255, 0.7);
 }
+
+.header-navigation-item {
+    /* box-sizing: border-box; */
+    margin-left: 48px;
+    font-size: 15px;
+    line-height: 20px;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    /* border-left: 3px solid rgb(0, 0, 0); */
+    /* border-bottom: 3px solid rgba(255, 255, 255, 0.7);
+    border-left: 3px solid rgba(255, 255, 255, 0.7); */
+    position: relative;
+    transition: border .5s;
+}
+
+.header-navigation-item:hover {
+    border-bottom: 3px solid rgba(255, 127, 80, 0.7);
+    /* border-left: 3px solid rgba(255, 127, 80, 0.7); */
+}
+
+/* .header-navigation-item::before {
+    content: '';
+    width: calc(100% + 5px);
+    height: 100%;
+    position: absolute;
+    margin-left: -5px;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.7);
+    border-left: 3px solid rgba(255, 255, 255, 0.7);
+    visibility: hidden;
+}
+
+.header-navigation-item:hover::before {
+    visibility: visible;
+    cursor: pointer;
+} */
+
+
+
